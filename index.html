@@ -5,221 +5,585 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="style.css" >
+    <!-- -------------------------------------------------------------------------------- -->
+    <!-- 🔵 CSS | Bindings -->
+    <!-- -------------------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="css/html-body.css">   
 
 
-    <title>📚 SFD - Listenening Books </title>
+    <!-- ------------------------------------ -->
+    <!-- Book Card -->
+    <!-- ------------------------------------ -->  
+    <link rel="stylesheet" href="css/book-card/short-book-card.css">
+
+
+    <!-- ------------------------------------ -->
+    <!-- Others  -->
+    <!-- ------------------------------------ -->  
+    <link rel="stylesheet" href="css/layout.css">
+
+
+    <title>Books Listening | by SuperfreshDEV </title>
 
 </head>
 
 
 <body>
 
+    <!-- ---------------------------------------------------------------------------- -->
+    <!-- SFD BOOK Body ( extra to isolate from body tag )--> 
+    <!-- ---------------------------------------------------------------------------- --> 
+    <div id="sfd-book-body">
+
+    
+        <!-- ------------------------------------------------------- -->
+        <!-- HEADER -->
+        <!-- ------------------------------------------------------- -->  
+        <header>
+            
+            <!-- ---------------------------------------------------- -->
+            <!-- Title Header -->
+            <!-- ---------------------------------------------------- -->
+            <div id="title-header">
+                
+                <img src="media/imgs/clipart/me-reading.png" alt="img">
+
+                <div>
+
+                    <div>
+                        <div>Book's Listening's of SuperfreshDEV</div>
+                        <div>» German & English Books & my personal conclusion</div>
+                    </div>
+                    
+                    <div>⚠️ This website is updated by me from time to time </div> 
+                       
+                </div>
+
+            </div> 
+             
+
+            <!-- ---------------------------------------------------- -->
+            <!-- Date Header -->
+            <!-- ---------------------------------------------------- -->
+            <div id="date-header">
+                
+                <div>
+                    <div id="js-day">js</div>
+                    <div>,</div>
+                </div>
+
+                <div id="js-month">js</div>
+                <div id="js-year">js</div>
+                
+            </div> 
+            
+
+        </header>
+
+        <!-- ------------------------------------------------------- -->
+        <!-- Main -->
+        <!-- ------------------------------------------------------- -->  
+        <main>
+
+            <div class="info-x">
+                ⚠️ Info: All my Audio Files I will update from time by time, because i'd like to build 
+                an book selector and then u can listen just for your choosen book audio files. 
+                To do this i need some time.
+            </div>
+            
+            <div id="main-layout">
+
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <!-- 📘 | Das Versprechen |     Short Book Card  -->
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <div class="short-book-card">
+                
+                    <img src="media/imgs/books/das-versprechen-baldacci.png" class="img-short-book" alt="img">
+
+                    <!-- ---------------------------------------------------------- -->
+                    <!-- Short Info Book Card -->
+                    <!-- ---------------------------------------------------------- -->  
+                    <div class="short-info-book-card">
+                    
+                        <!-- ----------------------------------------- -->
+                        <!-- Header -->
+                        <!-- ----------------------------------------- -->
+                        <header>
+
+                            <div>
+                                <span>Das Versprechen</span>
+                                <span>|</span>
+                                <span>2004</span>
+                            </div>
+                            
+                            <div>
+                                <a href="https://www.google.com/search?q=David+Baldacci&oq=David+Baldacci&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORjjAhixAxiABDIKCAEQLhixAxiABDIGCAIQRRg7MgcIAxAuGIAEMgoIBBAuGNQCGIAEMgoIBRAuGNQCGIAEMgcIBhAAGIAEMgcIBxAuGIAEMgcICBAuGIAE0gEHNDAzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">David Baldacci</a>               
+                            </div>
+
+                            <div class="book-youtube">
+
+                                <div>
+                                    ⚠️ Youtube 
+                                </div>
+
+                                <audio src="media/audios/books/01-Das-Versprechen/vorwort.ogg" controls preload="none"></audio>    
+                            
+                            </div>
+
+                            <div class="alles">
+                                Alles anhören
+                            </div>
+                        
+
+                        </header>   
+
+                    </div>
+
+                </div>
+                
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <!-- 📘 | Master ur Emotions |     Short Book Card  -->
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <div class="short-book-card">
+                
+                    <img src="media/imgs/books/master-ur-emotions.png" class="img-short-book" alt="img">
+
+                    <!-- ---------------------------------------------------------- -->
+                    <!-- Short Info Book Card -->
+                    <!-- ---------------------------------------------------------- -->  
+                    <div class="short-info-book-card">
+                    
+                        <!-- ----------------------------------------- -->
+                        <!-- Header -->
+                        <!-- ----------------------------------------- -->
+                        <header>
+
+                            <div>
+                                <span>Master your Emotions</span>
+                                <span>|</span>
+                                <span>2021</span>
+                            </div>
+                            
+                            <div>
+                                <a href="https://www.google.com/search?q=Thibaut+Meurisse&oq=Thibaut+Meurisse&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORjjAhiABDIHCAEQLhiABDIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBBzM2NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Thibaut Meurisse</a>               
+                            </div>
+
+                            <div class="book-youtube">
+
+                                <div>
+                                    ⚠️ Youtube 
+                                </div>
+
+                                <audio src="media/audios/books/02-Master-ur-Emotions/01/1-0-1.ogg" controls preload="none"></audio>    
+                            
+                            </div>
+
+                            <div class="alles">
+                                Alles anhören
+                            </div>
+                        
+
+                        </header>   
+
+                    </div>
+
+                </div> 
+                
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <!-- 📘 | Cafe am Rande der Welt |     Short Book Card  -->
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <div class="short-book-card">
+                
+                    <img src="media/imgs/books/cafe-am-rande-der-welt.jpg" class="img-short-book" alt="img">
+
+                    <!-- ---------------------------------------------------------- -->
+                    <!-- Short Info Book Card -->
+                    <!-- ---------------------------------------------------------- -->  
+                    <div class="short-info-book-card">
+                    
+                        <!-- ----------------------------------------- -->
+                        <!-- Header -->
+                        <!-- ----------------------------------------- -->
+                        <header>
+
+                            <div>
+                                <span>Das Cafe am Rande der Welt</span>
+                                <span>|</span>
+                                <span>2003</span>
+                            </div>
+                            
+                            <div>
+                                <a href="https://www.google.com/search?sca_esv=d11493255e4a1720&q=John+Strelecky&si=APYL9btKi1TLoawpxIKkhA47KIc3RH36yjJAdk2TmwBtOZld-gvIi_UA9PgeV4RsMoUrkr4sa0M1HJRq_8vjR_nuSb-xTvBj6qPwpM3PB6nT4zYv5nhGLKNutJESYX2w6f39C8uw-_-WBJ3IjLFeD6KU9xDYd6v_ujMRRS5K0k-sLz3gPkrnvlmqsrHjXaj0yANDwMuz6TFELe86cPNvB07s2-4CkQT6mg%3D%3D&sa=X&ved=2ahUKEwjNk8aJs4yMAxWo_rsIHa0HJnAQmxMoAHoECCMQAg&biw=998&bih=1154&dpr=1.65">John Strelecky</a>               
+                            </div>
+
+                            <div class="book-youtube">
+
+                                <div>
+                                    ⚠️ Youtube 
+                                </div>
+
+                                <audio src="media/audios/books/03-Cafe-am-Rande-der-Welt/0.ogg" controls preload="none"></audio>    
+                            
+                            </div>
+
+                            <div class="alles">
+                                Alles anhören
+                            </div>
+                        
+
+                        </header>   
+
+                    </div>
+
+                </div>
+                
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <!-- 📘 | Helmut Schmidt |     Short Book Card  -->
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <div class="short-book-card">
+                
+                    <img src="media/imgs/books/Helmut-Schmidt.jpg" class="img-short-book" alt="img">
+
+                    <!-- ---------------------------------------------------------- -->
+                    <!-- Short Info Book Card -->
+                    <!-- ---------------------------------------------------------- -->  
+                    <div class="short-info-book-card">
+                    
+                        <!-- ----------------------------------------- -->
+                        <!-- Header -->
+                        <!-- ----------------------------------------- -->
+                        <header>
+
+                            <div>
+                                <span>Helmut Schmidt - Der Weltkanzler</span>
+                                <span>|</span>
+                                <span>2016 (304 S.)</span>
+                            </div>
+                            
+                            <div>
+                                <a href="https://www.google.com/search?q=Kristina+Sphor&oq=Kristina+Sphor&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQLhgNGIAEMgkIAhAuGA0YgAQyCQgDEAAYDRiABDIICAQQABgNGB4yCAgFEAAYDRgeMggIBhAAGA0YHjIICAcQABgNGB4yCAgIEAAYDRge0gEHMzU4ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8">Kristina Sphor</a>               
+                            </div>
+
+                            <div class="book-youtube">
+
+                                <div>
+                                    ⚠️ Youtube 
+                                </div>
+
+                                <audio src="media/audios/books/04-Helmut-Schmidt/hs-einleitung-1.ogg" controls preload="none"></audio>    
+                            
+                            </div>
+
+                            <div class="alles">
+                                Alles anhören
+                            </div>
+                        
+
+                        </header>   
+
+                    </div>
+
+                </div>
+
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <!-- 📘 | Steve Jobs |     Short Book Card  -->
+                <!-- --------------------------------------------------------------------------------------------------------- -->
+                <div class="short-book-card">
+                
+                    <img src="media/imgs/books/steve-jobs.jpg" class="img-short-book" alt="img">
+
+                    <!-- ---------------------------------------------------------- -->
+                    <!-- Short Info Book Card -->
+                    <!-- ---------------------------------------------------------- -->  
+                    <div class="short-info-book-card">
+                    
+                        <!-- ----------------------------------------- -->
+                        <!-- Header -->
+                        <!-- ----------------------------------------- -->
+                        <header>
+
+                            <div>
+                                <span>Steve Jobs</span>
+                                <span>|</span>
+                                <span>2011 (666 S.)</span>
+                            </div>
+                            
+                            <div>
+                                <a href="https://www.google.com/search?sca_esv=d11493255e4a1720&q=Walter+Isaacson&si=APYL9btMsmZl0P9CyeA1NmMZFYv4xkDb-_Q4WCJadY9pxozSRVbgAjUvich_4wDSZ9u93k_f23VTFNkINUXYj5_yOevNZnipIqYSyQo5kqbfX5AF93-HmA1FM4yh7I6dliRxclhyZNNtw3BqK70jqXP1P6rqOCbALJBKjf8JXLVtp51m7e4n6Tz-kgeSOCBFSnTGsMLrXHP7azDJVgyRqSfLJHGTi81WGA%3D%3D&sa=X&ved=2ahUKEwjLnKiztYyMAxWdh_0HHcrxJCQQmxMoAHoECB0QAg&biw=998&bih=1154&dpr=1.65">Walter Isaacson</a>               
+                            </div>
+
+                            <div class="book-youtube">
+
+                                <div>
+                                    ⚠️ Youtube 
+                                </div>
+
+                                <audio src="media/audios/books/05-Steve-Jobs/01-01-adoption.ogg" controls preload="none"></audio>    
+                            
+                            </div>
+
+                            <div class="alles">
+                                Alles anhören
+                            </div>
+                        
+
+                        </header>   
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+
     <!-- ------------------------------------------------------- -->
-    <!-- HEADER -->
-    <!-- ------------------------------------------------------- -->  
-    <header>
+    <!-- ❌❌❌ OLD STUFF-->
+    <!-- ------------------------------------------------------- --> 
 
-       <div>
-            👋 Welcome to Superfresh Dev
-       </div> 
+    <div style="display: none;">
 
-       <div>
-           📚 Book Audio Reading Files 🎶
-       </div>
 
-      
-    </header>
+        <!-- ------------------------------------------------------- -->
+        <!-- HEADER -->
+        <!-- ------------------------------------------------------- -->  
+        <header>
 
-    <!-- ------------------------------------------------------- -->
-    <!-- In Construction -->
-    <!-- ------------------------------------------------------- -->
-    <div class="in-construction">
+        <div>
+                👋 Welcome to Superfresh Dev
+        </div> 
 
-        <div>This Webpage is actually March 2025 <b>in Construction.</b> </div>
-
-        <div> I will update this webpage time to time. </div>
-
-        <div>I have read many books and id like to upload these here like an Playlist. </div>
-
-        <div><b>Actually I read the book: </b> Das Versprechen - David Baldacci ( German ) </div>
-
-        <div>Books: </div>
-
-        <div>✅ Steve Jobs BIO | ✅ Mossad | ✅ Helmudt Schmidth BIO | ✅ Das Cafe am Rande der Welt | Geo Kompakt - Was Glück ist ... | ...</div>
-
-    </div>   
-
-    <main>
-
-        <!-- ------------------------------------------------------ -->
-        <!-- Audio Card -->
-        <!-- ------------------------------------------------------ -->  
-        <div class="audio-card">
-
-            <header>
-                <img src="media/imgs/baldaci.png" alt="img">
-                <div>Das Versprechen - David Baldacci</div>
-            </header>
-
-            <main>
-
-                <!-- intro  -->
-                <div class="audio-item">
-
-                    <div>Intro:</div>
-
-                    <audio src="media/01-Das-Versprechen/intro.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- vorw  -->
-                <div class="audio-item">
-
-                    <div>Vorwort:</div>
-
-                    <audio src="media/01-Das-Versprechen/vorwort.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- 1  -->
-                <div class="audio-item">
-
-                    <div>Kapitel 01 / 40:</div>
-
-                    <audio src="media/01-Das-Versprechen/1.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- 2 -->
-                <div class="audio-item">
-
-                    <div>Kapitel 02 / 40:</div>
-
-                    <audio src="media/01-Das-Versprechen/2.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- 3 -->
-                <div class="audio-item">
-
-                    <div>Kapitel 03 / 40:</div>
-
-                    <audio src="media/01-Das-Versprechen/3.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- 4-->
-                <div class="audio-item">
-
-                    <div>Kapitel 04 / 40:</div>
-
-                    <audio src="media/01-Das-Versprechen/4.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- 5-->
-                <div class="audio-item">
-
-                    <div>Kapitel 05 / 40:</div>
-
-                    <audio src="media/01-Das-Versprechen/5.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-                <!-- 6 -->
-                <div class="audio-item">
-
-                    <div>Kapitel 06 / 40: Lou & Oz lernen einen rothaarigen Jungen kennen ...</div>
-
-                    <audio src="media/01-Das-Versprechen/6.ogg" preload="none" controls >
-
-                    </audio>
-                    
-                </div>
-
-            </main>
-
+        <div>
+            📚 Book Audio Reading Files 🎶
         </div>
+
         
+        </header>
 
-        <!-- ------------------------------------------------------ -->
-        <!-- Audio Card -->
-        <!-- ------------------------------------------------------ --> 
-        <div class="audio-card">
+        <!-- ------------------------------------------------------- -->
+        <!-- In Construction -->
+        <!-- ------------------------------------------------------- -->
+        <div class="in-construction">
 
-            <header>
-                <img src="media/imgs/emotional-intelligence.png" alt="img">
-                <div>Master Your Emotions - Thibaut Meurisse</div>
-            </header>
+            <div>This Webpage is actually March 2025 <b>in Construction.</b> </div>
 
-            <main>
+            <div> I will update this webpage time to time. </div>
 
-                <!-- intro  -->
-                <div class="audio-item">
+            <div>I have read many books and id like to upload these here like an Playlist. </div>
 
-                    <div>1.0:  </div>
+            <div><b>Actually I read the book: </b> Das Versprechen - David Baldacci ( German ) </div>
 
-                    <audio src="media/02-Master-ur-Emotions/1/1-0-1.ogg" preload="none" controls >
+            <div>Books: </div>
 
-                    </audio>
-                    
-                </div>
+            <div>✅ Steve Jobs BIO | ✅ Mossad | ✅ Helmudt Schmidth BIO | ✅ Das Cafe am Rande der Welt | Geo Kompakt - Was Glück ist ... | ...</div>
 
-                <!-- vorw  -->
-                <div class="audio-item">
+        </div>   
 
-                    <div>1.1:  </div>
+        <main>
 
-                    <audio src="media/02-Master-ur-Emotions/1/1-1.ogg" preload="none" controls >
+            <!-- ------------------------------------------------------ -->
+            <!-- Audio Card -->
+            <!-- ------------------------------------------------------ -->  
+            <div class="audio-card">
 
-                    </audio>
-                    
-                </div>
+                <header>
+                    <img src="media/imgs/baldaci.png" alt="img">
+                    <div>Das Versprechen - David Baldacci</div>
+                </header>
 
-                <!-- 1  -->
-                <div class="audio-item">
+                <main>
 
-                    <div>1.2:  </div>
+                    <!-- intro  -->
+                    <div class="audio-item">
 
-                    <audio src="media/02-Master-ur-Emotions/1/1-2.ogg" preload="none" controls >
+                        <div>Intro:</div>
 
-                    </audio>
-                    
-                </div>
+                        <audio src="media/01-Das-Versprechen/intro.ogg" preload="none" controls >
 
-                <!-- 2 -->
-                <div class="audio-item">
+                        </audio>
+                        
+                    </div>
 
-                    <div>1.3:  </div>
+                    <!-- vorw  -->
+                    <div class="audio-item">
 
-                    <audio src="media/02-Master-ur-Emotions/1/1-3.ogg" preload="none" controls >
+                        <div>Vorwort:</div>
 
-                    </audio>
-                    
-                </div>
+                        <audio src="media/01-Das-Versprechen/vorwort.ogg" preload="none" controls >
 
-              
+                        </audio>
+                        
+                    </div>
 
-            </main>
+                    <!-- 1  -->
+                    <div class="audio-item">
 
-        </div>
+                        <div>Kapitel 01 / 40:</div>
 
-    </main>
+                        <audio src="media/01-Das-Versprechen/1.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="audio-item">
+
+                        <div>Kapitel 02 / 40:</div>
+
+                        <audio src="media/01-Das-Versprechen/2.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="audio-item">
+
+                        <div>Kapitel 03 / 40:</div>
+
+                        <audio src="media/01-Das-Versprechen/3.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 4-->
+                    <div class="audio-item">
+
+                        <div>Kapitel 04 / 40:</div>
+
+                        <audio src="media/01-Das-Versprechen/4.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 5-->
+                    <div class="audio-item">
+
+                        <div>Kapitel 05 / 40:</div>
+
+                        <audio src="media/01-Das-Versprechen/5.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="audio-item">
+
+                        <div>Kapitel 06 / 40: Lou & Oz lernen einen rothaarigen Jungen kennen ...</div>
+
+                        <audio src="media/01-Das-Versprechen/6.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                </main>
+
+            </div>
+            
+
+            <!-- ------------------------------------------------------ -->
+            <!-- Audio Card -->
+            <!-- ------------------------------------------------------ --> 
+            <div class="audio-card">
+
+                <header>
+                    <img src="media/imgs/emotional-intelligence.png" alt="img">
+                    <div>Master Your Emotions - Thibaut Meurisse</div>
+                </header>
+
+                <main>
+
+                    <!-- intro  -->
+                    <div class="audio-item">
+
+                        <div>1.0:  </div>
+
+                        <audio src="media/02-Master-ur-Emotions/1/1-0-1.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- vorw  -->
+                    <div class="audio-item">
+
+                        <div>1.1:  </div>
+
+                        <audio src="media/02-Master-ur-Emotions/1/1-1.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 1  -->
+                    <div class="audio-item">
+
+                        <div>1.2:  </div>
+
+                        <audio src="media/02-Master-ur-Emotions/1/1-2.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="audio-item">
+
+                        <div>1.3:  </div>
+
+                        <audio src="media/02-Master-ur-Emotions/1/1-3.ogg" preload="none" controls >
+
+                        </audio>
+                        
+                    </div>
+
+                
+
+                </main>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- ------------------------------------------------------------------- -->
+    <!-- 🟡 JS | Bindings                                                    -->
+    <!-- ------------------------------------------------------------------- -->
+
+        <!-- --------------------------------------- -->
+        <!-- Library -->
+        <!-- --------------------------------------- -->
+         
+        <!-- helpful functions -->
+        <script src="js/library/helpfulFunctions/check-functions.js"></script>
+        <script src="js/library/helpfulFunctions/get-date.js"></script>
+
+        <!-- create DomElements -->
+        <script src="js/library/createDomElements/create-inputs.js"></script>
+
+        <!-- --------------------------------------- -->
+        <!-- Default -->
+        <!-- --------------------------------------- --> 
+
+        <!-- windowsOnLoad -->
+        <script src="js/default/windowsOnLoad.js"></script>
+
+        <!-- --------------------------------------- -->
+        <!-- Content -->
+        <!-- --------------------------------------- --> 
+
 
 
     
