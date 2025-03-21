@@ -1,9 +1,105 @@
 
 
+
+/* ----------------------------------------------------------------------- */
+/* Book Info Card 
+/* ----------------------------------------------------------------------- */
+
 .book-info-card {
+
+   height: 18em;
+   width: 35em; 
+
+   display: flex;
+
+   border-radius: .8em;
+  
+   background-color: red;
+
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Img Info Book 
+/* ----------------------------------------------------------------------- */
+
+.img-info-book {
+
+    height: 100%;
+
+    border-radius: .8em 0 0 .8em;
+
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Info Book
+/* ----------------------------------------------------------------------- */
+
+.info-book {
+
+    width: 100%;
+    padding: 1.5em 1em 1em 1em;
+
+    display: grid;
+    grid: 1fr auto / 1fr;
+    row-gap: .8em;
+
+    border-radius: 0 .8em .8em 0;
+
+    background-color: grey;
 
 
 }
+
+
+/* ----------------------------------------------------------------------- */
+/* Header | Info Book
+/* ----------------------------------------------------------------------- */
+
+.info-book > header {
+
+    background-color: green;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Button Container | Info Book
+/* ----------------------------------------------------------------------- */
+
+.info-book > .button-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+.btn-listen {
+
+    height: 2em;
+    padding: 0 .6em;
+
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: bold;
+
+    border-radius: .6em;
+
+    cursor: pointer;
+
+    color:white;
+    background-color: red;
+}
+    
+.btn-listen:hover {
+
+    background-color: wheat;
+    color:black;
+}
+   
 
 
 
