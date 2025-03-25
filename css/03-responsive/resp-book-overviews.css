@@ -1,0 +1,15 @@
+/* ---------------------------------------------------------------- */
+/* > resp-book-overviews.css
+
+/* : Style responsive sets for book overviews
+/* ---------------------------------------------------------------- */
+
+
+@media (min-width: 500px ) {
+
+    /* .book-info-card {
+
+        display: none;
+    } */
+
+}

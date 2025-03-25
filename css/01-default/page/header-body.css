@@ -1,41 +1,11 @@
 
-html,body {
+/* ---------------------------------------------------------------- */
+/* > header-body.css 
 
-    margin: 0;
+/* : Style the default header body part
 
-    min-height: 100vh;
+/* ---------------------------------------------------------------- */
 
-    font-size: 1rem;
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    display: grid;
-
-}
-
-/* ------------------------------------------------------------------------------------- */
-/* SFD BOOK Body  
-/* ------------------------------------------------------------------------------------- */
-
-#sfd-book-body {
-
-    /* we like to grow from max parent body 100vh */
-    min-height: 100vh;
-    width: 100%;
-
-    /* layout */
-    display: grid;
-    
-    /* align-items: flex-start;
-    align-content: flex-start; */
-    justify-content: flex-start;
-
-    grid: auto 1fr / 1fr;
-
-    background-color: pink;
-
-
-}
 
 /* ------------------------------------------------------------------------------------- */
 /* Header 
@@ -118,50 +88,3 @@ html,body {
     display: flex;
  }
 
-
-
-/* ------------------------------------------------------------------------------------- */
-/* Main
-/* ------------------------------------------------------------------------------------- */
-
-#sfd-book-body > main {
-
-    padding: 2em 1.3em;
-
-    height: 100%;
-
-    display: grid;
-    align-items: flex-start;
-    justify-items: center;
-    row-gap: .3em;
-
-  
-
-    background-color: rgb(0, 200, 255);
-}
-
-
-.info-x {
-
-    padding: .3em .8em;
-
-    border-radius: .6em;
-
-    line-height: 1.5em;
-
-    background-color: rgb(223, 223, 223);
-}
-
-
-#main-layout {
-
-    
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-    column-gap: 1.3em;
-    row-gap: 1.3em;
-
-
-}
