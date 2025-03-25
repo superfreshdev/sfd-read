@@ -9,7 +9,31 @@
 
     .book-info-card {
 
+        width: auto;
         grid: 18em / 14em 21em;
     }
 
+    /* show book img */
+    .img-book-magazine-container {
+
+        display: flex;
+    }
+
+    /* change border stylings because of layout change */
+    .content-book-info-card {
+    
+        /* desktop version */
+        border-radius: 0em .8em .8em 0em;
+        
+    }
+
+    .content-book-info-card > label {
+
+        /* desktop version */
+        border-radius: 0em 0em .8em 0em;
+
+    }
+    
+
 }
+
