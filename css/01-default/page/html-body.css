@@ -47,7 +47,7 @@ html,body {
 
 #sfd-book-body > main {
 
-    padding: 2em 1.3em;
+    padding: 2em .8em;
 
     display: flex;
     align-items: flex-start;

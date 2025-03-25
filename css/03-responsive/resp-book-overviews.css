@@ -7,9 +7,9 @@
 
 @media (min-width: 500px ) {
 
-    /* .book-info-card {
+    .book-info-card {
 
-        display: none;
-    } */
+        grid: 18em / 14em 21em;
+    }
 
 }

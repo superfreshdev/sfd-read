@@ -29,10 +29,15 @@
 
 .book-info-card {
 
-    display: grid;
-    /* align-items: flex-start; */
+    width: 100%;
 
-    grid: 18em / 14em 21em;
+    display: grid;
+    align-items: flex-start;
+
+    /* mobile version */
+    grid: auto / 6em 1fr;
+
+   
 
     border-radius: .8em;
 
