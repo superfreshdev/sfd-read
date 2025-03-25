@@ -16,57 +16,91 @@
     padding: 1.3em 1.3em;
 
     display: flex;
-    flex-wrap: wrap;
+    column-gap: 1.5em;
     align-items: center;
-    justify-content: space-between;
-
-
-    background-color: rgb(40, 40, 40);
-}
-
-/* ----------------------------------------- */
-/* Title Header 
-/* ----------------------------------------- */
-
-#title-header {
-
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   column-gap: 1em;
-}
-
-#title-header > img:nth-of-type(1) {
-
-    height: 8em;
-}
-
-#title-header > div:nth-of-type(1) > div:nth-of-type(1) {
-
-   display: grid;
-   row-gap: .3em;
-
-}
-
-#title-header > div:nth-of-type(1) > div:nth-of-type(1) >  div:nth-of-type(1) {
-
-    font-size: 1.25rem;
-    font-weight: bold;
+    
 
     color:white;
+
+    background-color: rgb(40, 40, 40);
+
+    
 }
 
-#title-header > div:nth-of-type(1) > div:nth-of-type(1) >  div:nth-of-type(2) {
 
-    color:rgba(245, 222, 179, .6);
+
+/* ------------------------------------------------------------------------------------- */
+/* Header Body Img Container 
+/* ------------------------------------------------------------------------------------- */
+
+.header-body-img-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+
+    /* mobile unshown */
+
+    display: none;
 }
 
-#title-header > div:nth-of-type(1) > div:nth-of-type(2) {
+.img-clipart-me-header {
+
+    height: 4.3em;
+}
+
+.img-clipart-book-header {
 
     padding-top: .5em;
-    color:rgb(93, 93, 93);
+    height: 3.3em;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* Header Body Title Container
+/* ------------------------------------------------------------------------------------- */
+
+.header-body-title-container {
+
+    display: grid;
+
+    row-gap: .8em;
+}
+
+.txt-superfreshdev {
+
+    font-weight: bold;
+
+    font-size: 1.2em;
+}
+
+.txt-sub-header-info {
+
+    display: grid;
+    row-gap: .3em;
+    color:rgb(245, 222, 179, .6);
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* Header Under Construction
+/* ------------------------------------------------------------------------------------- */
+
+.txt-sub-header-under-construction {
+
+    display: grid;
+    row-gap: .5em;
+
+    line-height: 1.4em;
+
+    color:grey;
+
 
 }
+
+
+
 
 /* ----------------------------------------- */
 /* Date Header 

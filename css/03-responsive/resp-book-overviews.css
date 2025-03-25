@@ -7,6 +7,18 @@
 
 @media (min-width: 500px ) {
 
+    .header-body-img-container {
+
+        display: flex;
+       
+    }
+
+    .book-info-card-container {
+
+        width: auto;
+
+    }
+
     .book-info-card {
 
         width: auto;
