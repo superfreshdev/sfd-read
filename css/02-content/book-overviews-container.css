@@ -6,6 +6,89 @@
 
 
 
+
+.resp-book-info-card {
+
+    width: 100%;
+
+    display: grid;
+    row-gap: .8em;
+
+    /* grid-template-areas: 
+        
+        "box1 box1"
+        "box2 box2"; */
+}
+
+/* -------------------------------------------------- */
+/* Box Header 
+/* -------------------------------------------------- */
+
+.box-header {
+
+    display: grid;
+    grid: auto / 8em 1fr;
+
+}
+
+
+.img-container {
+
+    display: flex;
+
+    border-radius: .8em 0 0 .8em;
+    background-color: brown;
+}
+
+.img-book {
+
+    width: 100%;
+
+    border-radius: .8em 0 0 .8em;
+}
+
+
+.nr-block {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: yellow;
+}
+
+.nr-block > div {
+
+    font-size: 2em;
+}
+
+
+
+/* -------------------------------------------------- */
+/* Box Content
+/* -------------------------------------------------- */
+
+.box-content {
+
+    background-color: magenta;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------------------------------------------------------- */
 /* Book Overviews Container 
 /* ---------------------------------------------------------------- */
